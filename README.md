@@ -1,5 +1,8 @@
 # react-button-nice
-Adding hover/active effects into your buttons.
+Adding hover/active effects into your buttons. 
+
+
+[Demo link](https://codesandbox.io/s/rmywll97lq)
 
 #### Using wrapped element background-color and border-radius to generate effect.
 
