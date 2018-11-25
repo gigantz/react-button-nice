@@ -2,7 +2,7 @@
 import React from 'react';
 
 const isMobile = (() => {
-	if (window) {
+	if (typeof window !== 'undefined') {
 		if (document.body && document.body.clientWidth < 480) {
 			return true;
 		} else {
@@ -175,7 +175,7 @@ class ButtonNice extends React.PureComponent<Props, State> {
 		let color: null | string;
 		let radius: number | string = '4px';
 
-		if (this._input) {
+		if (this._input && this._input.style) {
 			color =
 				this._input.style.backgroundColor ||
 				window.getComputedStyle(this._input, null).getPropertyValue('background-color');
