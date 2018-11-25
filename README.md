@@ -1,6 +1,7 @@
 # react-button-nice
 Adding hover/active effects into your buttons. 
 
+![Screenshot](https://media.giphy.com/media/vxA8ZKUUTiBIumZkJ3/giphy.gif)
 
 [Demo link](https://codesandbox.io/s/rmywll97lq)
 
