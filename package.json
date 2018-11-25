@@ -3,6 +3,10 @@
   "version": "1.0.3",
   "description": "Adding nice hover and active effect into your buttons",
   "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/gigantz/react-button-nice"
+  },
   "keywords": [
     "button",
     "nice",
