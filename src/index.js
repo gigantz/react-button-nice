@@ -1,6 +1,5 @@
 //@flow
 import React from 'react';
-import type { Node } from 'react';
 
 const isMobile = (() => {
 	if (window) {
@@ -67,7 +66,7 @@ const activedStyled = (color: ?string, alpha: number, radius?: number | string =
 });
 
 type Props = {
-  children: Node,
+  children: any,
 	wrapperColor?: null | string,
   speed?: number,
   alpha?: number,
