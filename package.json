@@ -1,6 +1,6 @@
 {
   "name": "react-button-nice",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Adding nice hover and active effect into your buttons",
   "main": "index.js",
   "repository": {
